@@ -1,0 +1,205 @@
+/* .main_container{
+    display: flex;
+    border: 2px solid black;
+    height: 100%;
+    flex-direction: column;
+}
+.row {
+    height: 80px;
+    display: flex;
+
+}
+
+.box1, .box2, .box3 {
+    border: 1px solid black;
+    padding :3px;
+    margin: 3px;
+}
+#box1{
+    
+    flex-grow: 2;
+  
+}
+#box2{
+    flex-grow: 1;
+   
+}
+.section2 {
+    border:1px solid black;
+    margin: 3px;
+width: 75%;
+}
+.section3{
+    border:1px solid black;
+    width: 25%;
+    margin: 3px;
+}
+#sec1{
+    border: 3px solid aqua;
+}
+#sec2{
+    border: 3px solid orange;
+  
+}
+#sec3 {
+    border: 3px solid yellow;
+} */
+
+body{
+    margin: 0px;
+    background-color: rgb(48, 48, 48);
+    color: rgb(219, 219, 219);
+    padding: 5px;
+    
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid black;
+    height: 100%;
+}
+.bottomSec{
+    display: flex;
+}
+.sec1top{
+    display: flex;
+}
+
+img{
+    float: left;
+    margin: 2px;
+}
+.box1, .section2{
+    border: 2px solid black;
+    margin-left: auto;
+    margin: 2px;
+    width: 85%;
+    flex:2;
+    padding: 8px;
+}
+.box2, .section3{
+    border: 2px solid black;
+    margin: 2px;
+    flex: 1;
+    padding: 8px;
+    
+}
+.name{
+    font-size: xx-large;
+    margin: 10px;
+   
+}
+.textColor{
+    color:dodgerblue;
+    margin: 10px;
+}
+.box3{
+    border: 2px solid black;
+    padding: 8px;
+    margin: 2px;
+}
+.fa-solid {
+    float: left;
+    background-color:dodgerblue;
+}
+.as{
+    background-color:darkgreen
+}
+
+/* Style the progress element */
+progress {
+    width: 300px; 
+    height: 20px; 
+    /* Disable default browser styling */
+    appearance: none; 
+}
+/* Background for filled progress */
+#html::-webkit-progress-value {
+    background-color:dodgerblue; 
+}
+#css::-webkit-progress-value {
+    background-color:lightseagreen; 
+}
+
+#js::-webkit-progress-value {
+    background-color:gold;
+}
+
+#java::-webkit-progress-value {
+    background-color:red; 
+}
+
+
+/* Background for empty progress */
+#progress::-webkit-progress-bar {
+    background-color: darkgray; 
+}
+
+li{ 
+    list-style-type: square;
+}
+.g1::marker {
+    color:dodgerblue;
+     
+}
+.g2::marker {
+    color: lightseagreen;
+     
+}
+.g3::marker {
+    color: gold;
+     
+}
+.g4::marker {
+    color: red;
+     
+}
+
+
+/* 
+ .g1{
+    width: 15px;
+    height: 15px;
+    background-color: teal;
+ }
+ .bullet {
+    width: 15px; 
+    height: 15px;
+    background-color: red; 
+    border-radius: 4px; }
+
+.graphics{
+    display: inline-flex
+} */
+
+.lan {
+    display: flex; 
+    align-items: center; 
+    gap: 2px; 
+}
+
+
+.cir {
+    width: 13px; 
+    height: 13px; 
+   /*  background-color: teal;  */
+    border-radius: 50%; 
+}
+.c1{
+    background-color:gold ;
+}
+.c2{
+    background-color: dodgerblue;
+}
+.textShade{
+    color: rgb(158, 156, 156);
+    font-size: small;
+}
+.jobDate{
+    margin-right: auto;
+}
+h3{
+    background-color: rgb(88, 87, 87);
+}
